@@ -40,20 +40,6 @@ O pipeline simula um problema real de originação de crédito: base desbalancea
 
 ---
 
-## Estrutura
-
-```
-hackathon-tmb-fpd/
-├── basetreinamento.xlsx       # Base histórica rotulada (99.999 registros)
-├── submissao.xlsx             # Base de teste para predição (23.354 registros)
-├── tmb.ipynb                  # Pipeline completo end-to-end
-├── submissao_final.csv        # Saída gerada: pedido_id, prob_fpd, faixa_risco
-├── politica_cobranca.docx     # Política de cobrança operacional por faixa de risco
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Pipeline em 18 etapas
 
